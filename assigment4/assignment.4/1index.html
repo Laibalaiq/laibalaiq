@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        
+            background-color: #dfd3df;
+            margin: 0;
+        }
+        .signup-container {
+            background: rgb(135, 184, 173);
+            padding: 30px;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(221, 216, 216, 0.1);
+            width: 500px;
+            line-height: 34px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 90%;
+            padding: 1px;
+            margin: 20px 0;
+            border: 3px solid #fcf6f6;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: rgb(122, 109, 109);
+            padding: 4px;
+            border: 90px;
+            border-radius: 4px;
+            cursor: zoom-in;
+            width: 90%;
+        }
+  
+    </style>
+<body style="color: rgb(234, 237, 245);">
+    <div class="signup-container">
+         <CEnter><h1>CREATE AN ACCOUNT</h1>
+        <h2>Sign Up</h2></CEnter>
+        <form action="/signup" method="POST">
+          
+            <table style="width: 500px;">
+                <tr><th>NAME</th>
+                    <th>SIR NAME</th>
+                </tr>
+               
+                  <form action="#"><td><input type="text"></form></td><br>
+                  <form action="#"><td><input type="text"></form></td>
+                      
+    </table>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" required>
+            <p> D/OF/BIRTH <br>
+            <input type= "datetime-local" ></p>
+
+         PASSWORD
+            <input type="password" id="password" name="password" placeholder="enter a  password">
+            <b>gender </b>:
+            <input type="checkbox" name="name">male
+            <input type="checkbox" name="name">female
+            <input type="checkbox" name="name">other
+            
+
+   
+        </form>
+
+           <center> <p>Already have an account?  <a href="index.html" style="color: #7e3445;"><b>login</b></a> </center>
+                <small> <i>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+                </i></small>
+        </div>
+        
+   
+</body>
+</html>
